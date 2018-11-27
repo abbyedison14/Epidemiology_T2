@@ -1,0 +1,37 @@
+import java.util.*;
+import java.awt.*;
+public class ModelBuild
+{
+    
+    private int populationSize;
+    private double immunityRate;
+    private double movement;
+    private double infectiousPeriod;
+    private double recoveryRate;
+    private double immunizationRate;
+    private String[] individuals;
+    
+    
+
+    /**
+     * Constructor for objects of class ModelBuild, builds data set with
+     * individuals characterized by random assortment of population
+     * demographics in a population
+     */
+    public ModelBuild()
+    {
+        populationSize = 100;
+        immunityRate = 0;
+        movement = 0;
+        infectiousPeriod = 1;
+        recoveryRate = 0;
+        //populate list of individuals
+        individuals = new String[populationSize];
+        for(int n=0; n<populationSize; n++){
+            
+        
+        }
+    }
+
+  
+}
